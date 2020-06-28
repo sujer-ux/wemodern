@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WeModern</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="slider.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="persons.css">
+    <link rel="stylesheet" href="right-menu.css">
+    <link rel="stylesheet" href="darck-theme.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&family=Russo+One&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#yakar").on("click","a", function (event) {
+                event.preventDefault();
+                    var id  = $(this).attr('href'),
+                        top = $(id).offset().top;
+                $('body,html').animate({scrollTop: top}, 1000);
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <div class="header">
+           
+            <div class="headcontent">
+                                 <input class="right-menu-inp" type="checkbox">
+                <div class="right-menu-icon"></div>
+                <div class="right-menu-butten"></div>
+
+                <div class="right-menu">
+                    <ul>
+                          <li>Главная</li><li>Услуги</li>
+                          <li>Отзывы</li>
+                          <li>Кейсы</li><li>Контакты</li>
+                          <li>Обсудить проект</li>
+                    </ul>
+                </div>
+               <input type="checkbox" id="themer">
+                <div class="logo"></div>
+                <div class="WRmenu">
+                    <ul class="menu">
+                          <li>Главная</li><li>Услуги</li><li>Отзывы</li><li>Кейсы</li><li>Контакты</li><li id="li23">Обсудить проект</li>
+                    </ul>
+                </div>
+                <input class="menuControlInp" type="checkbox" id="ch3">
+                <div class="WRmenu2" id="WRmenu2">
+                    <ul class="menu2">
+                        <li>Главная</li>
+                        <li>Услуги</li>
+                        <li>Отзывы</li>
+                        <li>Кейсы</li>
+                        <li>Контакты</li>
+                        <li id="ahah">Обсудить<br/>проект</li>
+                    </ul>
+                </div>
+                <div class="icon1"></div>
+                <div class="ControlWR">
+                    <p>Меню</p>
+                    <div class="menuControl">
+                        
+                    </div>
+                </div>
+                <div class="heading">
+                    <div id="span1"><span>Разработка сайтов</span></div> 
+                    <div id="span2">SEO оптимизация. Ведение instagram. Контекстная и таргетированная реклама.</div>
+                    <div class="butten1"><a href="#t2">Все наши услуги</a></div>
+                </div>
+                <div class="down" id="yakar"><a href="#t1"></a></div>
+            </div>
+        </div>
+        <div class="sliderHeading" id="t1">
+            <p>Наши разработчики</p>
+            <div class="butten2">Хочу в команду</div>
+        </div>
+        <div class="slider">
+            <div class="control1"></div>
+            <div class="control2"></div>
+            <input class="check3" type="checkbox" id="ch2">
+            <input class="check2" type="checkbox" id="ch1">
+            <input class="check4" type="checkbox">
+            <input class="check1" type="checkbox">
+            <div class="clearwell" id="cw1"></div>
+            <div class="clearwell" id="cw2"></div>
+            <div class="slide1" id="box">
+                <div class="person" id="-person">
+                    <div class="avatar"><img src="images/photo_2020-05-25_18-03-10.jpg" alt=""></div>
+                    <div class="name">Игорь Божок</div>
+                    <div class="work">Web разработка, контекстная реклама, SEO продвижение</div>
+                    <div class="stazh">Стаж 8 лет</div>
+                </div>
+                <div class="person">
+                    <div class="avatar"><img src="images/YegorLetov.jpg" alt=""></div>
+                    <div class="name">Егор Летов</div>
+                    <div class="work">Front-end разработка,  Дизайн логотипов, Цветокор</div>
+                    <div class="stazh">Стаж 2 года</div>
+                </div>
+                <div class="person">
+                    <div class="avatar"><img src="images/Kurt.jpg" alt=""></div>
+                    <div class="name">Курт Кобейн</div>
+                    <div class="work">Back-end разработка,<br> PHP, jQery</div>
+                    <div class="stazh">Стаж 4 года</div>
+                </div>
+                <div class="person">
+                    <div class="avatar"><img src="images/max.jpg" alt=""></div>
+                    <div class="name">Максим Сырчиков</div>
+                    <div class="work">Python разработка, Telegram боты,<br>Настройка адаптивности</div>
+                    <div class="stazh">Стаж 3 года</div>
+                </div>
+                <div class="person">
+                    <div class="avatar"><img src="images/zorin.jpg" alt=""></div>
+                    <div class="name">Егор Зорин</div>
+                    <div class="work">3D дизайн, С#,<br>Unity</div>
+                    <div class="stazh">Стаж 1 год</div>
+                </div>
+            </div>
+            <script>
+                _id("ch1").addEventListener("click", function() {
+                    this.style.display = "none";
+                });
+
+                _id("box").addEventListener("animationend", function() {
+                    let cb = _id("ch1");
+                    cb.style.display = "";  
+  
+                    cb.checked = false;
+                });
+
+                function _id(str) { return document.getElementById(str); }
+            </script>
+            <script>
+                _id("ch2").addEventListener("click", function() {
+                    this.style.display = "none";
+                });
+
+                _id("box").addEventListener("animationend", function() {
+                    let cb = _id("ch2");
+                    cb.style.display = "";  
+  
+                    cb.checked = false;
+                });
+
+                function _id(str) { return document.getElementById(str); }
+            </script>
+        </div>
+        <div class="personsWR">
+            <div class="persons">
+                <div class="persone" id="left-cul1">
+                    <div class="avatar2"><img src="images/photo_2020-05-25_18-03-10.jpg" alt=""></div>
+                    <div class="name2">Игорь Божок</div>
+                    <div class="work2">Web разработка, контекстная реклама, SEO продвижение</div>
+                    <div class="stazh2">Стаж 8 лет</div>
+                </div>
+                <div class="persone" id="left-cul2">
+                    <div class="avatar2"><img src="images/YegorLetov.jpg" alt=""></div>
+                    <div class="name2">Егор Летов</div>
+                    <div class="work2">Front-end разработка,  Дизайн логотипов, Цветокор, Симметрия, Системный администратор</div>
+                    <div class="stazh2">Стаж 2 года</div>
+                </div>
+                <div class="persone" id="right-cul1">
+                    <div class="avatar2"><img src="images/Kurt.jpg" alt=""></div>
+                    <div class="name2">Курт Кобейн</div>
+                    <div class="work2">Back-end разработка,<br> PHP, jQery</div>
+                    <div class="stazh2">Стаж 4 года</div>
+                </div>
+                <div class="persone" id="right-cul2">
+                    <div class="avatar2"><img src="images/max.jpg" alt=""></div>
+                    <div class="name2">Максим Сырчиков</div>
+                    <div class="work2">Python разработка, Telegram боты,<br>Настройка адаптивности</div>
+                    <div class="stazh2">Стаж 3 года</div>
+                </div>
+                <div class="persone" id="center">
+                    <div class="avatar2"><img src="images/zorin.jpg" alt=""></div>
+                    <div class="name2">Егор Зорин</div>
+                    <div class="work2">3D дизайн, С#,<br>Unity</div>
+                    <div class="stazh2">Стаж 1 год</div>
+                </div>
+            </div>
+        </div>
+        <div class="textPerson"><p>Вся наша команда, которая состоит из дизайнеров, верстальщиков, таргетологов, контент-менеджеров, SEO специалистов и специалистов по контекстной рекламе, работает и комуницирует удаленно. Именно это позволяет нам достигать хороших показателей и результатов не завышая цену, а так же не затягивая сроки.</p></div>
+    </div>
+    <script>
+        document.getElementById('themer').addEventListener('change', e =>
+          e.target.closest('.wrapper').classList.toggle('dark')
+        )
+    </script>
+</body>
+</html>

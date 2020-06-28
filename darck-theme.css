@@ -1,0 +1,80 @@
+.wrapper.dark .right-menu {
+/*    filter: invert(100%);*/
+    background: #151515;
+}
+
+.wrapper.dark .right-menu ul li {
+    background: #212121;
+    color: #fff;
+}
+
+.wrapper.dark .right-menu ul li:hover {
+    background: #343434;
+}
+
+.wrapper.dark {
+    background: #212121;
+}
+
+
+.wrapper.dark .sliderHeading {
+    background-color: #151515;
+}
+
+.wrapper.dark .sliderHeading p {
+    color: #fff; 
+}
+.wrapper.dark .butten2 {
+    background: #212121;
+    color: #fff;
+}
+
+.wrapper.dark .butten2:hover {
+    background-color: #2a2a2a;
+}
+
+.wrapper.dark .butten2:active {
+    background-color: #343434;
+}
+
+.wrapper.dark .personsWR {
+    background: #151515;
+}
+
+.wrapper.dark .persone {
+    background: #212121;
+    color: #fff;
+}
+
+.wrapper.dark .textPerson {
+    background: #151515;
+}
+
+.wrapper.dark .textPerson p {
+    color: #fff;
+}
+
+.wrapper.dark .slider {
+    background: #151515;
+}
+
+.wrapper.dark .clearwell {
+    background: #151515;
+}
+.wrapper.dark .person {
+    color: #fff;
+}
+
+.wrapper.dark .control1,
+.wrapper.dark .control2 {
+    filter: invert(100%)
+}
+
+#darck-colors {
+    color: #333333;
+    color: #141414;
+    color: #000000; /* Wrapper color */
+    color: #161616; /* e2e2e2 */
+}
+
+

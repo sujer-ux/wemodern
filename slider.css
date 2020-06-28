@@ -1,0 +1,355 @@
+.slider {
+    background: #fff;
+    width: 93.0%;
+    height: 128px;
+    position: relative;
+/*    overflow: hidden;*/
+    float: right
+}
+
+.slide1 {
+    width: 2720px;
+    height: 128px;
+    position: absolute;
+    left: 0;
+    transition: left 1s;
+}
+
+
+
+
+.control1 {
+    position: absolute;
+    right: 2%;
+/*    background: #802b2b;*/
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    margin-top: -15px;
+    z-index: 98;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns%23' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23' xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' version='1.1' id='Layer_1' x='0px' y='0px' viewBox='0 0 492 492' style='enable-background:new 0 0 492 492;' xml:space='preserve' sodipodi:docname='back2.svg' inkscape:version='0.92.5 (2060ec1f9f, 2020-04-08)'%3E%3Cmetadata id='metadata45'%3E%3Crdf:RDF%3E%3Ccc:Work rdf:about=''%3E%3Cdc:format%3Eimage/svg+xml%3C/dc:format%3E%3Cdc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage' /%3E%3Cdc:title%3E%3C/dc:title%3E%3C/cc:Work%3E%3C/rdf:RDF%3E%3C/metadata%3E%3Cdefs id='defs43'%3E%3C/defs%3E%3Csodipodi:namedview pagecolor='%23ffffff' bordercolor='%23666666' borderopacity='1' objecttolerance='10' gridtolerance='10' guidetolerance='10' inkscape:pageopacity='0' inkscape:pageshadow='2' inkscape:window-width='1360' inkscape:window-height='708' id='namedview41' showgrid='false' inkscape:zoom='0.4796748' inkscape:cx='604.50248' inkscape:cy='246' inkscape:window-x='0' inkscape:window-y='28' inkscape:window-maximized='1' inkscape:current-layer='Layer_1' /%3E%3Cstyle type='text/css' id='style2'%3E .st0%7Bfill:%23FFFFFF;%7D%0A%3C/style%3E%3Cpath style='fill:%231a1a1a' d='M 347.50391 0 C 340.29591 0 333.54056 2.7912812 328.47656 7.8632812 L 109.32812 227.00781 C 104.24412 232.08781 101.46047 238.8758 101.48047 246.0918 C 101.46047 253.3398 104.24012 260.11912 109.32812 265.20312 L 328.27148 484.13672 C 333.33548 489.20872 340.09269 492 347.30469 492 C 354.51269 492 361.26794 489.20872 366.33594 484.13672 L 382.46094 468.01562 C 383.14663 467.32993 383.78479 466.61525 384.38086 465.87695 L 164.60742 246.10352 L 384.58594 26.125 C 383.98639 25.383158 383.34787 24.667646 382.66406 23.984375 L 366.53516 7.8632812 C 361.47516 2.7912812 354.71191 -5.9211895e-16 347.50391 0 z ' id='path4' /%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: left;
+    transform: rotate(180deg);
+    cursor: pointer;
+}
+
+.control2 {
+    position: absolute;
+    left: -5.8%;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    margin-top: -15px;
+    z-index: 98;
+    background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns%23' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23' xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' version='1.1' id='Layer_1' x='0px' y='0px' viewBox='0 0 492 492' style='enable-background:new 0 0 492 492;' xml:space='preserve' sodipodi:docname='back2.svg' inkscape:version='0.92.5 (2060ec1f9f, 2020-04-08)'%3E%3Cmetadata id='metadata45'%3E%3Crdf:RDF%3E%3Ccc:Work rdf:about=''%3E%3Cdc:format%3Eimage/svg+xml%3C/dc:format%3E%3Cdc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage' /%3E%3Cdc:title%3E%3C/dc:title%3E%3C/cc:Work%3E%3C/rdf:RDF%3E%3C/metadata%3E%3Cdefs id='defs43'%3E%3C/defs%3E%3Csodipodi:namedview pagecolor='%23ffffff' bordercolor='%23666666' borderopacity='1' objecttolerance='10' gridtolerance='10' guidetolerance='10' inkscape:pageopacity='0' inkscape:pageshadow='2' inkscape:window-width='1360' inkscape:window-height='708' id='namedview41' showgrid='false' inkscape:zoom='0.4796748' inkscape:cx='604.50248' inkscape:cy='246' inkscape:window-x='0' inkscape:window-y='28' inkscape:window-maximized='1' inkscape:current-layer='Layer_1' /%3E%3Cstyle type='text/css' id='style2'%3E .st0%7Bfill:%23FFFFFF;%7D%0A%3C/style%3E%3Cpath style='fill:%231a1a1a' d='M 347.50391 0 C 340.29591 0 333.54056 2.7912812 328.47656 7.8632812 L 109.32812 227.00781 C 104.24412 232.08781 101.46047 238.8758 101.48047 246.0918 C 101.46047 253.3398 104.24012 260.11912 109.32812 265.20312 L 328.27148 484.13672 C 333.33548 489.20872 340.09269 492 347.30469 492 C 354.51269 492 361.26794 489.20872 366.33594 484.13672 L 382.46094 468.01562 C 383.14663 467.32993 383.78479 466.61525 384.38086 465.87695 L 164.60742 246.10352 L 384.58594 26.125 C 383.98639 25.383158 383.34787 24.667646 382.66406 23.984375 L 366.53516 7.8632812 C 361.47516 2.7912812 354.71191 -5.9211895e-16 347.50391 0 z ' id='path4' /%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: left;
+    cursor: pointer;
+}
+
+.clearwell {
+    width: 7.4%;
+    height: 128px;
+    position: absolute;
+    background: #fff;
+    z-index: 97;
+    
+}
+
+#cw1 {
+    width: 7.6%;
+    left: -7.5%;
+    top: 0;
+}
+
+#cw2 {
+    top: 0;
+    right: 0;
+}
+
+.check1 {
+    position: absolute;
+    right: 1.8%;
+    top: 50%;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 102;
+    transition: all 1s;
+    transition-delay: 1s;
+}
+
+.check4 {
+    position: absolute;
+    right: 1.8%;
+    top: 50%;
+    margin-top: -15px;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 101;
+    transition: all 1s;
+    transition-delay: 1s;
+    display: none;
+}
+
+
+
+.check1:checked ~ .slide1 {
+    left: -70%;
+    transition: left 1s;
+}
+
+.check4:checked ~ .slide1 {
+    left: -140%;
+    transition: left 1s;
+}
+
+.check4:checked {
+    left: -5.8%;
+}
+
+.check1:checked {
+    left: -5.8%;
+    z-index: 100;
+}
+
+@media screen and (max-width: 1230px) {
+    .check4 {
+        display: block;
+    }
+    .check3:checked ~ .slide1 {
+        animation: -slide2 0.7s ease;
+        transition: all 0.7s;
+    }
+
+    @keyframes -slide2 {
+/*        0% {left: -140%;}*/
+        50% {left: -155%;}
+/*        100% {left: -140%;}*/
+    }
+}
+
+.col {
+    height: 22vh;
+    width: 33.3333%;
+/*    outline: 2px solid red;*/
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.check2 {
+    z-index: 100;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    left: -5.8%;
+    top: 50%;
+    margin-top: -15px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.check2:checked ~ .slide1 {
+    animation: -slide 0.7s ease;
+    transition: all 0.7s;
+}
+
+@keyframes -slide {
+/*    0% {left: 0;}*/
+    50% {left: 15%;}
+/*    100% {left: 0;}*/
+}
+.check3 {
+    position: absolute;
+    z-index: 99;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    margin-top: -15px;
+    right: 1.8%;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-width: 1230px) {
+    .check3:checked ~ .slide1 {
+        animation: -slide2 0.7s ease;
+        transition: all 0.7s;
+    }
+
+    @keyframes -slide2 {
+/*        0% {left: -70%;}*/
+        50% {left: -85%;}
+/*        100% {left: -70%;}*/
+    }
+}
+
+.sliderHeading {
+    width: 100%;
+    height: 60px;
+    background: #fff;
+}
+
+.sliderHeading p {
+    display: block;
+    margin: 0;
+    font-family: 'Russo One', sans-serif;
+    color: #151515;
+    margin-left: 7.5%;
+    padding: 1.3em 0 0 0;
+    width: 177px;
+    float: left;
+}
+
+.butten2 {
+    float: right;
+    font-size: 11px;
+    width: 130px;
+    height: 40px;
+    background: #e2e2e2;
+    margin: 10px 7.5% 5px 0;
+    text-align: center;
+    padding: 1.1em 0 0 0;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.butten2:hover {
+    background: #d1d1d1;
+}
+
+.butten2:active {
+    background: #b5b5b5;
+}
+
+.person {
+/*    background: rgba(111, 37, 37, 0.33);*/
+    width: 350px;
+    height: 128px;
+    margin-left: 45px;
+    padding: 4px 0;
+    text-transform: none;
+    text-align: left;
+    color: #151515;
+    float: left;
+}
+
+#-person {
+    margin-left: 2px;
+}
+
+.avatar {
+    width: 128px;
+    height: 120px;
+/*    background: rgba(64, 80, 39, 0.46);*/
+    border-radius: 50%;
+    float: left;
+    overflow: hidden;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.name {
+    width: 200px;
+    height: 25px;
+/*    background: #882727;*/
+    float: left;
+    margin: 13px 10px 0 10px;
+    font-family: 'Russo One', sans-serif;
+    padding: 0.2em 0;
+}
+
+.work {
+    width: 200px;
+    height: 34px;
+/*    background: #413030;*/
+    float: left;
+    margin: 6px 10px 0 10px;
+    font-size: 12px;
+    padding: 0;
+}
+
+.stazh {
+    width: 200px;
+    height: 20px;
+/*    background: #404629;*/
+    float: left;
+    margin: 6px 10px 0 10px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 14px;
+    padding: 0.1em 0;
+}
+
+.textPerson {
+    width: 100%;
+    background-color: #fff;
+    float: left;
+    padding-top: 5px;
+}
+.textPerson p {
+    width: 85%;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+    font-size: 15px;
+    padding: 0.4em 0;
+    color: #454343;
+}
+
+@media screen and (max-width:534px) {
+    .textPerson p {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width:874px) {
+    .check1:checked ~ .slide1 {
+        left: -100%;
+        transition: left 1s;
+    }
+
+    .check4:checked ~ .slide1 {
+        left: -200%;
+        transition: left 1s;
+    }
+    .check3:checked ~ .slide1 {
+        animation: -slide2 0.7s ease;
+    }
+
+    @keyframes -slide2 {
+        0% {left: -200%;}
+        50% {left: -215%;}
+        100% {left: -200%;}
+    }
+}
+
+@media screen and (max-width:874px) {
+    .slider {
+        display: none;
+    }
+}
+
+@media screen and (max-width:379px) {
+    .butten2 {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+

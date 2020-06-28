@@ -1,0 +1,205 @@
+.personsWR {
+    width: 100%;
+/*    height: 500px;;*/
+    background: #fff;
+}
+.persons {
+/*    outline: 1px solid;*/
+    display: table;
+    width: 85%;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.persone {
+    border-radius: 3px;
+/*    height: 128px;*/
+    padding: 4px 0;
+    margin-bottom: 15px;
+/*    float: left;*/
+    width: 48.5%;
+    height: auto;
+    background: #e2e2e2;
+    position: relative;
+}
+
+#left-cul1 {
+    float: left;
+}
+
+#left-cul2 {
+
+    float: right;
+}
+
+#right-cul1 {
+
+    float: left;
+}
+
+#right-cul2 {
+
+    float: right;
+}
+
+#center {
+
+    float: left;
+}
+
+
+
+.avatar2 {
+    width: 90px;
+    height: 90px;
+/*    background: rgba(64, 80, 39, 0.46);*/
+    border-radius: 50%;
+/*    float: left;*/
+    overflow: hidden;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.avatar2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.name2 {
+/*    width: 57%;*/
+/*    background: #882727;*/
+    float: left;
+    margin: 10px 10px 0 110px;
+    font-family: 'Russo One', sans-serif;
+    padding: 0.2em 0;
+}
+
+.work2 {
+/*    width: 57%;*/
+
+/*    background: #413030;*/
+    float: left;
+    margin: 6px 10px 0 110px;
+    font-size: 12px;
+    padding: 0;
+}
+
+.stazh2 {
+/*    width: 57%;*/
+    float: left;
+/*    background: #404629;*/
+    margin: 6px 10px 10px 110px;
+    font-family: 'Russo One', sans-serif;
+    font-size: 14px;
+    padding: 0.1em 0;
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:875px) {
+    .personsWR {
+        display: none;
+    }
+}
+
+@media screen and (max-width:534px) {
+    .persone {
+        border-radius: 3px;
+/*    height: 128px;*/
+        padding: 4px 0;
+        margin-bottom: 15px;
+/*    float: left;*/
+        width: 100%;;
+        min-height: 135px;
+        background: #e2e2e2;
+        position: relative;
+        float: left;
+    }
+    .avatar2 {
+        width: 90px;
+        height: 90px;
+    /*    background: rgba(64, 80, 39, 0.46);*/
+        border-radius: 50%;
+    /*    float: left;*/
+        overflow: hidden;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
+    .avatar2 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .name2 {
+    /*    width: 57%;*/
+/*        background: #882727;*/
+/*        float: left;*/
+        margin: 10px 10px 0 110px;
+        font-family: 'Russo One', sans-serif;
+        padding: 0.2em 0;
+        display: block;
+/*        min-width: 300px;*/
+        float: none;
+    }
+
+    .work2 {
+    /*    width: 57%;*/
+
+    /*    background: #413030;*/
+/*        float: left;*/
+        margin: 6px 10px 0 110px;
+        font-size: 12px;
+        padding: 0;
+        display: block;
+        float: none;
+    }
+
+    .stazh2 {
+    /*    width: 57%;*/
+/*        float: left;*/
+    /*    background: #404629;*/
+        margin: 6px 10px 10px 110px;
+        font-family: 'Russo One', sans-serif;
+        font-size: 14px;
+        padding: 0.1em 0;
+        display: block;
+        float: none;
+    }
+    #left-cul1 {
+        float: left;
+    }
+
+    #left-cul2 {
+
+        float: left;
+    }
+
+    #right-cul1 {
+
+        float: left;
+    }
+
+    #right-cul2 {
+
+        float: left;
+    }
+
+    #center {
+
+        float: left;
+    }
+}
+
+
+
