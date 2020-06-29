@@ -229,6 +229,59 @@
     .darkMenu {
         display: none;
     }
+    .themeico {
+/*
+        right: 50%;
+        margin-right: -116px;
+        top: 50%;
+        margin-top: 132px;
+*/
+        right: -50%;
+        margin-right: -93px;
+        top: 50%;
+        margin-top: 128px;
+        position: fixed;
+        width: 49px;
+        height: 23px;
+        border-radius: 50px;
+    }
+    
+    .themeico::after {
+        width: 15px;
+        height: 15px;
+        top: 4px;
+        left: 5px;
+    }
+    
+    #themer:checked ~ .themeico::after {
+        left: 28px;
+    }
+    
+    #themer {
+/*
+        right: 50%;
+        margin-right: -116px;
+        top: 50%;
+        margin-top: 132px;
+*/
+        right: -50%;
+        margin-right: -93px;
+        top: 50%;
+        margin-top: 128px;
+        opacity: ;
+        width: 49px;
+        height: 23px;
+        position: fixed;
+    }
+    .right-menu-inp:checked ~ .themeico {
+        right: 50%;
+        transition: right .5s;
+    }
+
+    .right-menu-inp:checked ~ #themer {
+        right: 50%;
+        transition: right .5s;
+    }
 }
 
 

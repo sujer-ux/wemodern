@@ -95,11 +95,16 @@
     background: #c7c7c7;
 }
 
+#321:hover {
+    background-color: transparent;
+}
 
 .right-menu-inp:checked ~ .right-menu {
     right: 0;
     transition: right .5s;
 }
+
+
 
 .right-menu-inp:checked ~ .right-menu-butten {
     
