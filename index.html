@@ -27,10 +27,17 @@
 <body>
 
     <div class="wrapper">
-
+        
         <div class="header">
-           
+            
             <div class="headcontent">
+                            <input type="checkbox" id="themer" name="themer">
+                            <div class="themeico"></div>
+                            <script>
+                                    document.getElementById('themer').addEventListener('change', e =>
+                                      e.target.closest('.wrapper').classList.toggle('dark')
+                                    )
+                            </script>
                                  <input class="right-menu-inp" type="checkbox">
                 <div class="right-menu-icon"></div>
                 <div class="right-menu-butten"></div>
@@ -49,16 +56,12 @@
                           <li>Главная</li><li>Услуги</li><li>Отзывы</li><li>Кейсы</li><li>Контакты</li>
                           <li id="darkTriger">
                             <label for="themer">Темная тема:</label>
-                            <input type="checkbox" id="themer" name="themer">
-                            <div class="themeico"></div>
-                                <script>
-                                    document.getElementById('themer').addEventListener('change', e =>
-                                      e.target.closest('.wrapper').classList.toggle('dark')
-                                    )
-                                </script>
                           </li>
 
                     </ul>
+                </div>
+                <div class="darkMenu">
+                    Темная тема:
                 </div>
                 <input class="menuControlInp" type="checkbox" id="ch3">
                 <div class="WRmenu2" id="WRmenu2">

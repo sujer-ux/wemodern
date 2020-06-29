@@ -163,10 +163,29 @@
     transition: none;
 }
 
+.darkMenu {
+    position: absolute;
+    width: 184px;
+    background: rgba(132, 132, 132, 0.25);
+    height: 50px;
+    right: 242px;
+    top: 55px;
+    border-radius: 50px;
+    padding: 14px 18px;;
+    font-size: 16px;
+}
 
 @media screen and (max-width: 1150px) {
     .WRmenu {
         display: none;
+    }
+    .themeico {
+        right: 259px;
+        top: 72px;
+    }
+    #themer {
+        right: 256px;
+        top: 69px;
     }
 }
 
@@ -188,6 +207,9 @@
     .ControlWR {
         display: none;
     }
+    .darkMenu {
+        display: none;
+    }
 }
 
 
@@ -202,6 +224,9 @@
         display: none;
     }
     .ControlWR {
+        display: none;
+    }
+    .darkMenu {
         display: none;
     }
 }

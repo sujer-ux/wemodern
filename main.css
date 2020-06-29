@@ -21,8 +21,8 @@ a {
 
 #themer {
     position: absolute;
-    top: 10px;
-    left: 117px;
+    top: 34px;
+    right: 52px;
     z-index: 999;
     opacity: 0;
     width: 35px;
@@ -35,8 +35,8 @@ a {
     height: 16px;
     position: absolute;
     background: #a36a6a;
-    top: 13px;
-    left: 120px;;
+    top: 37px;
+    right: 56px;;
     border-radius: 10px;;
 }
 
