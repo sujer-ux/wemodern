@@ -30,7 +30,7 @@
 }
 
 .WRmenu {
-    width: 894px;
+    width: 928px;
     height: 50px;
     float: right;
     margin-top: 20px;
@@ -50,11 +50,20 @@
 /*    background: rgba(132, 132, 132, 0.25);*/
     margin:0;
     text-align: center;
-    padding: 0.9em;
+    padding: 1.0em;
     color: white;
     border-radius: 3px;
+    position: relative;
 /*    border-right: 1px solid rgba(191, 176, 176, 0.12);*/
 }
+
+/*
+.menu li label {
+    font-size: 12px;
+    margin: 0;
+    padding: 0.9em;
+}
+*/
 
 .menu li:hover {
     background: rgba(113, 113, 113, 0.25);
@@ -63,6 +72,7 @@
 
 
 .menu {
+    width: 100%;
     margin: 5px;
     padding: 0;
     height: 40px;

@@ -43,11 +43,21 @@
                           <li>Обсудить проект</li>
                     </ul>
                 </div>
-               <input type="checkbox" id="themer">
                 <div class="logo"></div>
                 <div class="WRmenu">
                     <ul class="menu">
-                          <li>Главная</li><li>Услуги</li><li>Отзывы</li><li>Кейсы</li><li>Контакты</li><li id="li23">Обсудить проект</li>
+                          <li>Главная</li><li>Услуги</li><li>Отзывы</li><li>Кейсы</li><li>Контакты</li>
+                          <li id="darkTriger">
+                            <label for="themer">Темная тема:</label>
+                            <input type="checkbox" id="themer" name="themer">
+                            <div class="themeico"></div>
+                                <script>
+                                    document.getElementById('themer').addEventListener('change', e =>
+                                      e.target.closest('.wrapper').classList.toggle('dark')
+                                    )
+                                </script>
+                          </li>
+
                     </ul>
                 </div>
                 <input class="menuControlInp" type="checkbox" id="ch3">
@@ -186,10 +196,6 @@
         </div>
         <div class="textPerson"><p>Вся наша команда, которая состоит из дизайнеров, верстальщиков, таргетологов, контент-менеджеров, SEO специалистов и специалистов по контекстной рекламе, работает и комуницирует удаленно. Именно это позволяет нам достигать хороших показателей и результатов не завышая цену, а так же не затягивая сроки.</p></div>
     </div>
-    <script>
-        document.getElementById('themer').addEventListener('change', e =>
-          e.target.closest('.wrapper').classList.toggle('dark')
-        )
-    </script>
+
 </body>
 </html>
