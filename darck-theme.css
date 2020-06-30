@@ -17,7 +17,53 @@
 }
 
 .wrapper.dark .servicesHeading {
-    color: white;
+    color: rgb(255, 255, 255);
+}
+
+.wrapper.dark .tab-nav {
+    background-color: rgb(21, 21, 21);
+}
+
+
+.wrapper.dark  #tab-nav-1:checked ~ #tab-lab-1 {
+    background: #fff;
+    color: #000;
+    cursor: default;
+}
+
+.wrapper.dark  #tab-nav-2:checked ~ #tab-lab-2 {
+    background: #fff;
+    color: #000;
+    cursor: default;
+}
+
+.wrapper.dark  #tab-nav-3:checked ~ #tab-lab-3 {
+    background: #fff;
+    color: #000;
+    cursor: default;
+}
+
+.wrapper.dark  #tab-nav-4:checked ~ #tab-lab-4 {
+    background: #fff;
+    color: #000;
+    cursor: default;
+}
+
+.wrapper.dark .tab-label {
+    color: #fff;
+}
+
+.wrapper.dark .tab-label:hover {
+    background: #2a2a2a;
+}
+
+.wrapper.dark .tab-label:active {
+    background: #343434;
+}
+
+.wrapper.dark  .bottonPanel {
+    background-color: #fff;
+    color: #000;
 }
 
 .wrapper.dark .sliderHeading {
@@ -74,8 +120,8 @@
 }
 
 .wrapper.dark .service {
-    background-color: #151515;
-    color: white;
+    background-color: rgb(21, 21, 21);
+    color: rgb(255, 255, 255);
 }
 
 

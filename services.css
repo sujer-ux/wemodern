@@ -1,3 +1,5 @@
+
+
 .service {
     width: 100%;
 /*    height: 400px;*/
@@ -9,9 +11,10 @@
     background-repeat: no-repeat;
     background-position: 18px 22px;
     background-size: 14px;
-        margin-top: 30px;
+    margin-top: 10px;
     overflow: hidden;
     position: relative;
+    display: none;
 }
 
 .service .serHead {
@@ -22,6 +25,72 @@
 
 }
 
+.tab-nav {
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.services > input[type ="radio"] {
+    display: none;
+}
+
+.tab-label {
+    padding: 5px 10px;
+    margin-top: 0px;
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+    border-radius: 3px;
+    top: 168px;
+}
+
+.tab-label:hover {
+    background: #e2e2e2;
+}
+
+.tab-label:active {
+    background: #b9b9b9;
+}
+
+#tab-lab-1 {
+    left: 6px;
+}
+#tab-lab-2 {
+    left: 128px;
+}
+#tab-lab-3 {
+    left: 251px;
+}
+#tab-lab-4 {
+    left: 431px
+}
+
+#tab-nav-1:checked ~ #tab-lab-1 {
+    background: #000000;
+    color: #fff;
+    cursor: default;
+}
+
+#tab-nav-2:checked ~ #tab-lab-2 {
+    background: #000000;
+    color: #fff;
+    cursor: default;
+}
+
+#tab-nav-3:checked ~ #tab-lab-3 {
+    background: #000000;
+    color: #fff;
+    cursor: default;
+}
+
+#tab-nav-4:checked ~ #tab-lab-4 {
+    background: #000000;
+    color: #fff;
+    cursor: default;
+}
+
 .lidescription {
     max-width: 360px;
     padding-right: 40px;
@@ -29,7 +98,6 @@
 
 .exampleimage {
     width: 40%;
-    height: 409px;
     background: #835858;
     position: absolute;
     right: 0;
@@ -39,11 +107,29 @@
     padding: 12em;
 */
     height: 100%;
-    background-image: url(images/photo_2019-09-28_22-31-17.jpg);
+
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
 }
+
+#service1 > .exampleimage {
+    background-image: url(images/photo_2019-09-28_22-31-17.jpg);
+}
+
+#service2 > .exampleimage {
+    background-image: url(images/Screenshot_2020-06-30%20WeModern.jpg);
+}
+
+
+#service3 > .exampleimage {
+    background-image: url(images/photo_2019-09-28_22-31-17.jpg);
+}
+
+#service4 > .exampleimage {
+    background-image: url(images/Screenshot_2020-06-30%20WeModern.jpg);
+}
+
 
 .readmore {
     width: 140px;
@@ -87,12 +173,13 @@
 }
 
 .servicesHeading {
-    margin-top: 100px;
+    margin-top: 120px;
     font-family: 'Russo one', sans-serif;
     font-size: 19px;
     color: #151515;
     width: 60%;
     margin-right: 40%;
+    margin-bottom: 20px;
 }
 
 .bottonPanel {
@@ -142,6 +229,23 @@
     background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='UTF-8' standalone='no'?%3e%3csvg xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns%23' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23' xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' version='1.1' id='svg6' sodipodi:docname='trending-up.svg' inkscape:version='0.92.5 (2060ec1f9f, 2020-04-08)'%3e%3cmetadata id='metadata12'%3e%3crdf:RDF%3e%3ccc:Work rdf:about=''%3e%3cdc:format%3eimage/svg+xml%3c/dc:format%3e%3cdc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage' /%3e%3c/cc:Work%3e%3c/rdf:RDF%3e%3c/metadata%3e%3cdefs id='defs10' /%3e%3csodipodi:namedview pagecolor='%23ffffff' bordercolor='%23666666' borderopacity='1' objecttolerance='10' gridtolerance='10' guidetolerance='10' inkscape:pageopacity='0' inkscape:pageshadow='2' inkscape:window-width='1360' inkscape:window-height='708' id='namedview8' showgrid='false' inkscape:zoom='9.8333333' inkscape:cx='12' inkscape:cy='6.4584094' inkscape:window-x='0' inkscape:window-y='28' inkscape:window-maximized='1' inkscape:current-layer='svg6' /%3e%3cpolyline points='23 6 13.5 15.5 8.5 10.5 1 18' id='polyline2' style='fill:none;fill-opacity:1;stroke:%2323a454;stroke-opacity:1' /%3e%3cpolyline points='17 6 23 6 23 12' id='polyline4' style='fill:none;fill-opacity:1;stroke:%2323a454;stroke-opacity:1' /%3e%3c/svg%3e");
 }
 
+#tab-nav-1:checked ~ #service1 {
+    display: block;
+}
+
+#tab-nav-2:checked ~ #service2 {
+    display: block;
+}
+
+#tab-nav-3:checked ~ #service3 {
+    display: block;
+}
+
+#tab-nav-4:checked ~ #service4 {
+    display: block;
+}
+
+
 .services {
     width: 85%;
     margin: 0 auto;
@@ -149,9 +253,130 @@
 /*    background: #b17575;*/
 /*    padding-top: 185px;*/
 /*    float: left;*/
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.deploy-check {
+    display: none;
+}
+
+.deploy-nav {
+    display: none;
 }
 
 
+@media screen and (max-width: 335px) {
+    .readmore {
+        width: 120px;
+    }
+}
+
+
+@media screen and (max-width: 694px) {
+    .tab-label {
+        display: none;
+    }
+    .tab-nav {
+        display: none;
+    }
+    .service {
+        display: block;
+        background-position: top 14px right 24px;
+        background-size: 30px;
+    }
+    .service ul {
+        width: 100%;
+        margin-bottom: 220px;
+        margin-left: -8px;
+        transition: margin-bottom .5s;
+    }
+    .service .serHead {
+        margin-left: 15px;
+    }
+    .lidescription {
+        display: none;
+    }
+    .exampleimage {
+        width: 100%;
+        height: 200px;
+        bottom: 0;
+        left: 0;
+        top: inherit;
+        transition: height .5s;
+    }
+    .deploy-check {
+        display: inline-block;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 50%;
+        margin-left: -20px;
+        bottom: 60px;
+        z-index: 3;
+        opacity: 0;
+        cursor: pointer;
+    }
+    .deploy-nav {
+        display: inline-block;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        background: rgba(13, 13, 13, 0.67);
+        border-radius: 50%;
+        left: 50%;
+        margin-left: -20px;
+        bottom: 63px;
+        z-index: 2;
+            background-image: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3C!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3E%3Csvg xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns%23' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23' xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' version='1.1' id='Layer_1' x='0px' y='0px' viewBox='0 0 492 492' style='enable-background:new 0 0 492 492;' xml:space='preserve' sodipodi:docname='down.svg' inkscape:version='0.92.5 (2060ec1f9f, 2020-04-08)'%3E%3Cmetadata id='metadata45'%3E%3Crdf:RDF%3E%3Ccc:Work rdf:about=''%3E%3Cdc:format%3Eimage/svg+xml%3C/dc:format%3E%3Cdc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage' /%3E%3Cdc:title%3E%3C/dc:title%3E%3C/cc:Work%3E%3C/rdf:RDF%3E%3C/metadata%3E%3Cdefs id='defs43' /%3E%3Csodipodi:namedview pagecolor='%23ffffff' bordercolor='%23666666' borderopacity='1' objecttolerance='10' gridtolerance='10' guidetolerance='10' inkscape:pageopacity='0' inkscape:pageshadow='2' inkscape:window-width='1360' inkscape:window-height='708' id='namedview41' showgrid='false' inkscape:zoom='0.4796748' inkscape:cx='-117.78813' inkscape:cy='246' inkscape:window-x='0' inkscape:window-y='28' inkscape:window-maximized='1' inkscape:current-layer='Layer_1' /%3E%3Cstyle type='text/css' id='style2'%3E .st0%7Bfill:%23FFFFFF;%7D%0A%3C/style%3E%3Cg id='g8' style='fill:%23ffffff'%3E%3Cg id='g6' style='fill:%23ffffff'%3E%3Cpath class='st0' d='M198.608,246.104L382.664,62.04c5.068-5.056,7.856-11.816,7.856-19.024c0-7.212-2.788-13.968-7.856-19.032l-16.128-16.12 C361.476,2.792,354.712,0,347.504,0s-13.964,2.792-19.028,7.864L109.328,227.008c-5.084,5.08-7.868,11.868-7.848,19.084 c-0.02,7.248,2.76,14.028,7.848,19.112l218.944,218.932c5.064,5.072,11.82,7.864,19.032,7.864c7.208,0,13.964-2.792,19.032-7.864 l16.124-16.12c10.492-10.492,10.492-27.572,0-38.06L198.608,246.104z' id='path4' style='fill:%23ffffff' /%3E%3C/g%3E%3C/g%3E%3Cg id='g10'%3E%3C/g%3E%3Cg id='g12'%3E%3C/g%3E%3Cg id='g14'%3E%3C/g%3E%3Cg id='g16'%3E%3C/g%3E%3Cg id='g18'%3E%3C/g%3E%3Cg id='g20'%3E%3C/g%3E%3Cg id='g22'%3E%3C/g%3E%3Cg id='g24'%3E%3C/g%3E%3Cg id='g26'%3E%3C/g%3E%3Cg id='g28'%3E%3C/g%3E%3Cg id='g30'%3E%3C/g%3E%3Cg id='g32'%3E%3C/g%3E%3Cg id='g34'%3E%3C/g%3E%3Cg id='g36'%3E%3C/g%3E%3Cg id='g38'%3E%3C/g%3E%3C/svg%3E");
+        transform: rotate(-90deg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 26px;
+    }
+    .deploy-nav::before {
+        content: "Развернуть";
+        position: absolute;
+        top: 10px;
+        left: 11px;
+        transform: rotate(90deg);
+        color: white;
+        text-shadow: 0px 0px 30px #000000;
+        background-color: rgba(13, 13, 13, 0.67);
+        padding: 3px;
+        border-radius: 3px;
+    }
+    #service1 > .deploy-check:checked ~ .exampleimage,
+    #service2 > .deploy-check:checked ~ .exampleimage,
+    #service3 > .deploy-check:checked ~ .exampleimage,
+    #service4 > .deploy-check:checked ~ .exampleimage {
+        height: 600px;
+        transition: height .5s;
+    }
+    #service1 > .deploy-check:checked ~ ul,
+    #service2 > .deploy-check:checked ~ ul,
+    #service3 > .deploy-check:checked ~ ul,
+    #service4 > .deploy-check:checked ~ ul {
+        margin-bottom: 620px;
+        transition: margin-bottom .5s;
+    }
+    #service1 > .deploy-check:checked ~ .deploy-nav,
+    #service2 > .deploy-check:checked ~ .deploy-nav,
+    #service3 > .deploy-check:checked ~ .deploy-nav,
+    #service4 > .deploy-check:checked ~ .deploy-nav {
+        transform: rotate(90deg);
+/*        transition: transform 0.1s;*/
+    }
+    #service1 > .deploy-check:checked ~ .deploy-nav::before,
+    #service2 > .deploy-check:checked ~ .deploy-nav::before,
+    #service3 > .deploy-check:checked ~ .deploy-nav::before,
+    #service4 > .deploy-check:checked ~ .deploy-nav::before {
+        transform: rotate(-90deg);
+        left: -56px;
+        top: 6px;
+        content: "Свернуть";
+    }
+}
 
 
 
