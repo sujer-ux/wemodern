@@ -16,6 +16,9 @@
     background: #212121;
 }
 
+.wrapper.dark .servicesHeading {
+    color: white;
+}
 
 .wrapper.dark .sliderHeading {
     background-color: #151515;
@@ -69,6 +72,12 @@
 .wrapper.dark .control2 {
     filter: invert(100%)
 }
+
+.wrapper.dark .service {
+    background-color: #151515;
+    color: white;
+}
+
 
 #darck-colors {
     color: #333333;

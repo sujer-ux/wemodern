@@ -1,0 +1,170 @@
+.service {
+    width: 100%;
+/*    height: 400px;*/
+    background: #fff;
+/*    float: left;*/
+/*    margin: 20px 2%;*/
+    border-radius: 3px;
+    padding: 20px 0px 0px 0px;
+    background-repeat: no-repeat;
+    background-position: 18px 22px;
+    background-size: 14px;
+        margin-top: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.service .serHead {
+    font-family: 'Russo One', sans-serif;
+    margin: 0px 0px 0px 43px;
+/*    font-size: 26px;*/
+    padding: 0;
+
+}
+
+.lidescription {
+    max-width: 360px;
+    padding-right: 40px;
+}
+
+.exampleimage {
+    width: 40%;
+    height: 409px;
+    background: #835858;
+    position: absolute;
+    right: 0;
+    top: 0;
+/*
+    text-align: center;
+    padding: 12em;
+*/
+    height: 100%;
+    background-image: url(images/photo_2019-09-28_22-31-17.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.readmore {
+    width: 140px;
+    height: 30px;
+    margin: 10px;
+    background: #212121;
+    float: right;
+    color: white;
+    border-radius: 3px;
+    font-size: 11px;
+    padding: 6.9px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.readmore:hover {
+    background: #2a2a2a;
+}
+
+.readmore:active {
+    background-color: #343434;
+}
+
+.price {
+    color: white;
+    padding: 0.9em;
+    margin: 0;
+    margin-left: 29px;
+    float: left;
+}
+
+.service ul {
+    list-style-type: decimal;
+    font-family: roboto, sans-serif;
+/*    font-size: 22px;*/
+/*    margin-bottom: 59px;*/
+    margin-left: 22px;
+    width: 60%;
+    margin-right: 40%;
+    margin-bottom: 70px;
+}
+
+.servicesHeading {
+    margin-top: 100px;
+    font-family: 'Russo one', sans-serif;
+    font-size: 19px;
+    color: #151515;
+    width: 60%;
+    margin-right: 40%;
+}
+
+.bottonPanel {
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+/*    margin-left: -20px;*/
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#service1 {
+/*
+    margin-left: 2%;
+    margin-right: 3.0%;
+*/
+
+}
+
+#service1 {
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='UTF-8' standalone='no'?%3e%3csvg xmlns:osb='http://www.openswatchbook.org/uri/2009/osb' xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns%23' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23' xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' version='1.1' id='svg8' sodipodi:docname='developer.svg' inkscape:version='0.92.5 (2060ec1f9f, 2020-04-08)'%3e%3cmetadata id='metadata14'%3e%3crdf:RDF%3e%3ccc:Work rdf:about=''%3e%3cdc:format%3eimage/svg+xml%3c/dc:format%3e%3cdc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage' /%3e%3cdc:title /%3e%3c/cc:Work%3e%3c/rdf:RDF%3e%3c/metadata%3e%3cdefs id='defs12'%3e%3clinearGradient id='linearGradient1235' osb:paint='solid'%3e%3cstop style='stop-color:%23000000;stop-opacity:1;' offset='0' id='stop1233' /%3e%3c/linearGradient%3e%3c/defs%3e%3csodipodi:namedview pagecolor='%23ffffff' bordercolor='%23666666' borderopacity='1' objecttolerance='10' gridtolerance='10' guidetolerance='10' inkscape:pageopacity='0' inkscape:pageshadow='2' inkscape:window-width='1360' inkscape:window-height='708' id='namedview10' showgrid='false' inkscape:snap-nodes='false' inkscape:snap-others='false' inkscape:zoom='9.8333333' inkscape:cx='-13.169492' inkscape:cy='12' inkscape:window-x='0' inkscape:window-y='28' inkscape:window-maximized='1' inkscape:current-layer='svg8' /%3e%3crect x='2' y='3' width='20' height='14' rx='2' ry='2' id='rect2' style='fill:none;stroke:%2323a454;stroke-opacity:1' /%3e%3cline x1='8' y1='21' x2='16' y2='21' id='line4' style='fill:none;stroke:%2323a454;stroke-opacity:1' /%3e%3cline x1='12' y1='17' x2='12' y2='21' id='line6' style='fill:none;stroke:%2323a454;stroke-opacity:1' /%3e%3cg style='fill:none;stroke:%2323a454;stroke-opacity:1;stroke-width:4.06290977' id='g919' transform='matrix(0.49225804,0,0,0.49225804,6.0929035,4.0590053)'%3e%3cpolyline id='polyline905' points='16 18 22 12 16 6' style='fill:none;stroke:%2323a454;stroke-opacity:1;stroke-width:4.06290977' /%3e%3cpolyline id='polyline907' points='8 6 2 12 8 18' style='fill:none;stroke:%2323a454;stroke-opacity:1;stroke-width:4.06290977' /%3e%3c/g%3e%3c/svg%3e");}
+
+#service2 {
+/*
+    margin-right: 2%;
+    margin-left: 3.0%;
+*/
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='UTF-8' standalone='no'?%3e%3csvg xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns%23' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23' xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' version='1.1' id='svg8' sodipodi:docname='instagram.svg' inkscape:version='0.92.5 (2060ec1f9f, 2020-04-08)'%3e%3cmetadata id='metadata14'%3e%3crdf:RDF%3e%3ccc:Work rdf:about=''%3e%3cdc:format%3eimage/svg+xml%3c/dc:format%3e%3cdc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage' /%3e%3c/cc:Work%3e%3c/rdf:RDF%3e%3c/metadata%3e%3cdefs id='defs12' /%3e%3csodipodi:namedview pagecolor='%23ffffff' bordercolor='%23666666' borderopacity='1' objecttolerance='10' gridtolerance='10' guidetolerance='10' inkscape:pageopacity='0' inkscape:pageshadow='2' inkscape:window-width='1360' inkscape:window-height='708' id='namedview10' showgrid='false' inkscape:zoom='9.8333333' inkscape:cx='-10.576271' inkscape:cy='12' inkscape:window-x='0' inkscape:window-y='28' inkscape:window-maximized='1' inkscape:current-layer='svg8' /%3e%3crect x='2' y='2' width='20' height='20' rx='5' ry='5' id='rect2' style='fill:none;stroke:%2323a454;stroke-opacity:1' /%3e%3cpath d='M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z' id='path4' style='fill:none;stroke:%2323a454;stroke-opacity:1' /%3e%3cline x1='17.5' y1='6.5' x2='17.51' y2='6.5' id='line6' style='fill:none;stroke:%2323a454;stroke-opacity:1' /%3e%3c/svg%3e");
+}
+
+#service3 {
+/*
+    margin-left: 2%;
+    margin-right: 3.0%;
+    margin-top: 62px;
+*/
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='UTF-8' standalone='no'?%3e%3c!-- Generator: Adobe Illustrator 23.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0) --%3e%3csvg xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns%23' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23' xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' version='1.1' id='Слой_1' x='0px' y='0px' viewBox='0 0 24.13 24.02' style='enable-background:new 0 0 24.13 24.02;' xml:space='preserve' sodipodi:docname='google.svg' inkscape:version='0.92.5 (2060ec1f9f, 2020-04-08)'%3e%3cmetadata id='metadata13'%3e%3crdf:RDF%3e%3ccc:Work rdf:about=''%3e%3cdc:format%3eimage/svg+xml%3c/dc:format%3e%3cdc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage' /%3e%3c/cc:Work%3e%3c/rdf:RDF%3e%3c/metadata%3e%3cdefs id='defs11' /%3e%3csodipodi:namedview pagecolor='%23ffffff' bordercolor='%23666666' borderopacity='1' objecttolerance='10' gridtolerance='10' guidetolerance='10' inkscape:pageopacity='0' inkscape:pageshadow='2' inkscape:window-width='1360' inkscape:window-height='708' id='namedview9' showgrid='false' inkscape:zoom='9.8251455' inkscape:cx='-10.530086' inkscape:cy='12.01' inkscape:window-x='0' inkscape:window-y='28' inkscape:window-maximized='1' inkscape:current-layer='Слой_1' /%3e%3cstyle type='text/css' id='style2'%3e .st0%7bdisplay:none;%7d .st1%7bfill:none;stroke:%23010202;stroke-width:2.5;stroke-miterlimit:14;%7d %3c/style%3e%3cpath class='st0' d='M17.76,20.93C8.28,25.73-1.18,16.74,2.7,7.28c0.87-2.12,2.49-3.88,4.53-4.93c4.38-2.25,9.22-1.43,12.44,1.62 L17.1,6.69c-2.29-2.16-5.8-2.58-8.83-0.58C7.52,6.6,6.9,7.28,6.48,8.07c-2.74,5.2,0.99,10.44,5.92,10.44c3.13,0,5.77-2.11,6.59-4.98 H12.4V9.79H23l0,2.33C23,15.4,20.69,19.45,17.76,20.93z' id='path4' /%3e%3cpath class='st1' d='M18.35,6.2c-1.54-1.46-3.61-2.36-5.9-2.36c-4.75,0-8.59,3.85-8.59,8.59c0,4.75,3.85,8.59,8.59,8.59 c4.75,0,8.59-3.85,8.59-8.59h-8.59' id='path6' style='fill:none;stroke:%2323a454;stroke-opacity:1' /%3e%3c/svg%3e");
+}
+
+#service4 {
+/*
+    margin-right: 2%;
+    margin-left: 3.0%;
+    margin-top: 62px;
+*/
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3c?xml version='1.0' encoding='UTF-8' standalone='no'?%3e%3csvg xmlns:dc='http://purl.org/dc/elements/1.1/' xmlns:cc='http://creativecommons.org/ns%23' xmlns:rdf='http://www.w3.org/1999/02/22-rdf-syntax-ns%23' xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' xmlns:sodipodi='http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd' xmlns:inkscape='http://www.inkscape.org/namespaces/inkscape' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' version='1.1' id='svg6' sodipodi:docname='trending-up.svg' inkscape:version='0.92.5 (2060ec1f9f, 2020-04-08)'%3e%3cmetadata id='metadata12'%3e%3crdf:RDF%3e%3ccc:Work rdf:about=''%3e%3cdc:format%3eimage/svg+xml%3c/dc:format%3e%3cdc:type rdf:resource='http://purl.org/dc/dcmitype/StillImage' /%3e%3c/cc:Work%3e%3c/rdf:RDF%3e%3c/metadata%3e%3cdefs id='defs10' /%3e%3csodipodi:namedview pagecolor='%23ffffff' bordercolor='%23666666' borderopacity='1' objecttolerance='10' gridtolerance='10' guidetolerance='10' inkscape:pageopacity='0' inkscape:pageshadow='2' inkscape:window-width='1360' inkscape:window-height='708' id='namedview8' showgrid='false' inkscape:zoom='9.8333333' inkscape:cx='12' inkscape:cy='6.4584094' inkscape:window-x='0' inkscape:window-y='28' inkscape:window-maximized='1' inkscape:current-layer='svg6' /%3e%3cpolyline points='23 6 13.5 15.5 8.5 10.5 1 18' id='polyline2' style='fill:none;fill-opacity:1;stroke:%2323a454;stroke-opacity:1' /%3e%3cpolyline points='17 6 23 6 23 12' id='polyline4' style='fill:none;fill-opacity:1;stroke:%2323a454;stroke-opacity:1' /%3e%3c/svg%3e");
+}
+
+.services {
+    width: 85%;
+    margin: 0 auto;
+    display: table;
+/*    background: #b17575;*/
+/*    padding-top: 185px;*/
+/*    float: left;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
